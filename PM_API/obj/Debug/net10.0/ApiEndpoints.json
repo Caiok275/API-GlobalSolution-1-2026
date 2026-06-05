@@ -1,0 +1,700 @@
+[
+  {
+    "ContainingType": "Challenge_PM.Controllers.AlertaController",
+    "Method": "GetAll",
+    "RelativePath": "api/Alerta",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.AlertaController",
+    "Method": "Create",
+    "RelativePath": "api/Alerta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "alertaToSave",
+        "Type": "Challenge_PM.Models.Alerta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.AlertaController",
+    "Method": "GetById",
+    "RelativePath": "api/Alerta/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.AlertaController",
+    "Method": "Update",
+    "RelativePath": "api/Alerta/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "novoAlerta",
+        "Type": "Challenge_PM.Models.Alerta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.AlertaController",
+    "Method": "Delete",
+    "RelativePath": "api/Alerta/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.AlertaController",
+    "Method": "GetBySensor",
+    "RelativePath": "api/Alerta/sensor/{sensorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sensorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.AlertaController",
+    "Method": "GetByTipo",
+    "RelativePath": "api/Alerta/tipo/{tipoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.DataCenterController",
+    "Method": "GetAll",
+    "RelativePath": "api/DataCenter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.DataCenterController",
+    "Method": "Create",
+    "RelativePath": "api/DataCenter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dataCenterToSave",
+        "Type": "Challenge_PM.Models.DataCenter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.DataCenterController",
+    "Method": "GetById",
+    "RelativePath": "api/DataCenter/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.DataCenterController",
+    "Method": "Update",
+    "RelativePath": "api/DataCenter/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "novoDataCenter",
+        "Type": "Challenge_PM.Models.DataCenter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.DataCenterController",
+    "Method": "Delete",
+    "RelativePath": "api/DataCenter/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.DataCenterController",
+    "Method": "GetBySetor",
+    "RelativePath": "api/DataCenter/setor/{setor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "setor",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.DataCenterController",
+    "Method": "GetByStatus",
+    "RelativePath": "api/DataCenter/status/{status}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.FuncionarioController",
+    "Method": "GetAll",
+    "RelativePath": "api/Funcionario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.FuncionarioController",
+    "Method": "Create",
+    "RelativePath": "api/Funcionario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "funcionarioToSave",
+        "Type": "Challenge_PM.Models.Funcionario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.FuncionarioController",
+    "Method": "GetById",
+    "RelativePath": "api/Funcionario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.FuncionarioController",
+    "Method": "Update",
+    "RelativePath": "api/Funcionario/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "novoFuncionario",
+        "Type": "Challenge_PM.Models.Funcionario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.FuncionarioController",
+    "Method": "Delete",
+    "RelativePath": "api/Funcionario/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.FuncionarioController",
+    "Method": "GetByCargo",
+    "RelativePath": "api/Funcionario/cargo/{cargo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cargo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.FuncionarioController",
+    "Method": "GetByEmail",
+    "RelativePath": "api/Funcionario/email/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.ManutencaoController",
+    "Method": "GetAll",
+    "RelativePath": "api/Manutencao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.ManutencaoController",
+    "Method": "Create",
+    "RelativePath": "api/Manutencao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "manutencaoToSave",
+        "Type": "Challenge_PM.Models.Manutencao",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.ManutencaoController",
+    "Method": "GetById",
+    "RelativePath": "api/Manutencao/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.ManutencaoController",
+    "Method": "Update",
+    "RelativePath": "api/Manutencao/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "novaManutencao",
+        "Type": "Challenge_PM.Models.Manutencao",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.ManutencaoController",
+    "Method": "Delete",
+    "RelativePath": "api/Manutencao/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.ManutencaoController",
+    "Method": "GetByFuncionario",
+    "RelativePath": "api/Manutencao/funcionario/{funcionarioId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "funcionarioId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.ManutencaoController",
+    "Method": "GetByStatus",
+    "RelativePath": "api/Manutencao/status/{status}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.ManutencaoController",
+    "Method": "GetByTipo",
+    "RelativePath": "api/Manutencao/tipo/{tipo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.SensorController",
+    "Method": "GetAll",
+    "RelativePath": "api/Sensor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.SensorController",
+    "Method": "Create",
+    "RelativePath": "api/Sensor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sensorToSave",
+        "Type": "Challenge_PM.Models.Sensor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.SensorController",
+    "Method": "GetById",
+    "RelativePath": "api/Sensor/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.SensorController",
+    "Method": "Update",
+    "RelativePath": "api/Sensor/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "novoSensor",
+        "Type": "Challenge_PM.Models.Sensor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.SensorController",
+    "Method": "Delete",
+    "RelativePath": "api/Sensor/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.SensorController",
+    "Method": "GetByAtividade",
+    "RelativePath": "api/Sensor/atividade/{atividade}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "atividade",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.SensorController",
+    "Method": "GetByDataCenter",
+    "RelativePath": "api/Sensor/datacenter/{dataCenterId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dataCenterId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.SensorController",
+    "Method": "GetByTipo",
+    "RelativePath": "api/Sensor/tipo/{tipo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.TipoAlertaController",
+    "Method": "GetAll",
+    "RelativePath": "api/TipoAlerta",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.TipoAlertaController",
+    "Method": "Create",
+    "RelativePath": "api/TipoAlerta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoAlertaToSave",
+        "Type": "Challenge_PM.Models.TipoAlerta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.TipoAlertaController",
+    "Method": "GetById",
+    "RelativePath": "api/TipoAlerta/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.TipoAlertaController",
+    "Method": "Update",
+    "RelativePath": "api/TipoAlerta/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "novoTipoAlerta",
+        "Type": "Challenge_PM.Models.TipoAlerta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.TipoAlertaController",
+    "Method": "Delete",
+    "RelativePath": "api/TipoAlerta/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.TipoAlertaController",
+    "Method": "GetByNivel",
+    "RelativePath": "api/TipoAlerta/nivel/{nivel}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nivel",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Challenge_PM.Controllers.TipoAlertaController",
+    "Method": "GetByTipo",
+    "RelativePath": "api/TipoAlerta/tipo/{tipo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
